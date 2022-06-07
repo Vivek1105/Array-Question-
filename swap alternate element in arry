@@ -1,0 +1,9 @@
+def swap(arry):
+    for i in range (0,len(arry)-1, 2):
+        arry[i], arry[i+1]=arry[i+1],arry[i]
+
+
+n= int(input())
+arry=[int(i) for i in input().split()]
+swap(arry)
+print(arry)
