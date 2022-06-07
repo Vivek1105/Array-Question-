@@ -1,0 +1,6 @@
+n = int(input())
+arry = [int(i) for i in input().split()]
+ans = 0
+for i in range (n):
+    ans = ans^arry[i]
+print(ans)
