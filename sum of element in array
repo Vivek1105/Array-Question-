@@ -1,6 +1,6 @@
 n= int(input())
 arry=[int(i) for i in input().split()]
-sum=0
+s=0
 for i in arry:
-    sum=sum+i
-print(sum)
+    s=s+i
+print(s)
